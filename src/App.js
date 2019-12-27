@@ -1,14 +1,12 @@
 import React from "react";
-import Test from "./components/Test";
+import MyHeader from "./components/MyHeader";
 import ThemeContainer from "./ThemeContainer";
 
 function App() {
   return (
     // Common Theme
     <ThemeContainer>
-      <div className="App">
-        <Test />
-      </div>
+      <MyHeader>Styled Components FYI!</MyHeader>
     </ThemeContainer>
   );
 }

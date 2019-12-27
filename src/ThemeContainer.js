@@ -23,7 +23,7 @@ const theme = {
     medium: "14px",
     large: "20px"
   },
-  mediaQueries: {
+  mqBreakPoints: {
     mobileS: "320px",
     mobileM: "375px",
     mobileL: "425px",
